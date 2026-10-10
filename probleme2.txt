@@ -1,0 +1,29 @@
+Procédure dot_product(ps,n,i,:entier
+ V1,V2tableau entier )
+Début
+    Pour (i allant de 0 à n-1) Faire
+        ps=ps+V1(i)*V2(i)
+        
+    FinFaire
+    
+Fin
+algorithme:orthogonalité
+variable : ps,n,i:entier 
+           V1,V2:entier
+ Debut
+ Appeler dot_product()
+ Si (ps===0) Alors
+    ecrire("ortoghogonaux")
+        
+Sinon 
+    ecrire("nonorthogonaux")
+ Finsi
+ Fin
+ Fonction dot_prodution(ps,n,i :entier V1,V2:entier) 
+ Début
+    Pour (i allant de 0 à n-1) Faire
+        ps=ps+V1(i)*V2(i)
+    FinFaire
+    
+    retourne ps
+ Fin

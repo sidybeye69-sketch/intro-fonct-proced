@@ -1,0 +1,15 @@
+algorithme:somme_distinct
+variables:ensembles1,ensembles2:tableaux entier,
+somme,elem:entier
+Debut
+somme = 0
+Pour (chaque elem de ensemble1) Faire
+    Si elem non dans ensemble2 
+        somme:=somme+elem
+FinFaire
+Pour (chaque elem de ensemble2) Faire
+    Si elem non dans ensemble1 
+        somme:=somme+elem
+FinFaire
+Afficher somme
+Fin 
